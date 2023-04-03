@@ -9,17 +9,17 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.23",
+    "@iconify-json/logos": "^1.1.24",
     "@unocss/core": "^0.50.6",
     "@unocss/preset-attributify": "^0.50.6",
     "@unocss/preset-icons": "^0.50.6",
     "@unocss/preset-uno": "^0.50.6",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.3",
     "unocss": "^0.50.6",
     "vite": "^4.2.1",
     "vite-plugin-solid": "^2.6.1"
   },
   "dependencies": {
-    "solid-js": "^1.6.15"
+    "solid-js": "^1.7.1"
   }
 }
