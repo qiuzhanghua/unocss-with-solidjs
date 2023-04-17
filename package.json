@@ -10,16 +10,16 @@
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.24",
-    "@unocss/core": "^0.50.6",
-    "@unocss/preset-attributify": "^0.50.6",
-    "@unocss/preset-icons": "^0.50.6",
-    "@unocss/preset-uno": "^0.50.6",
-    "typescript": "^5.0.3",
-    "unocss": "^0.50.6",
+    "@unocss/core": "^0.51.4",
+    "@unocss/preset-attributify": "^0.51.4",
+    "@unocss/preset-icons": "^0.51.4",
+    "@unocss/preset-uno": "^0.51.4",
+    "typescript": "^5.0.4",
+    "unocss": "^0.51.4",
     "vite": "^4.2.1",
-    "vite-plugin-solid": "^2.6.1"
+    "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
-    "solid-js": "^1.7.1"
+    "solid-js": "^1.7.3"
   }
 }
