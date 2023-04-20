@@ -29,8 +29,7 @@
     "typescript": "^5.0.4",
     "unocss": "^0.51.5",
     "vite": "^4.2.2",
-    "vite-plugin-solid": "^2.7.0",
-    "vite-plugin-windicss": "^1.8.10"
+    "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
     "solid-js": "^1.7.3"
