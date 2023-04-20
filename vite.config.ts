@@ -6,7 +6,6 @@ import presetUno from "@unocss/preset-uno"
 import presetAttributify from "@unocss/preset-attributify"
 export default defineConfig({
     plugins: [
-        solidPlugin(),
         UnoCSS({
             shortcuts: [{
                 logo: "i-logos-solidjs-icon w-6em h-6em transform transition-800 hover:rotate-360"
@@ -21,7 +20,8 @@ export default defineConfig({
                     }
                 })
             ]
-        })
+        }),
+        solidPlugin(),
     ],
     build: {
         target: "esnext",

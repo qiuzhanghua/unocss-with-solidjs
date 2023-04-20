@@ -24,3 +24,16 @@ Modify tsconfig.json as
 }
 ```
 
+Add html.d.ts to src
+```ts
+import type { AttributifyAttributes } from '@unocss/preset-attributify'
+
+declare module 'solid-js' {
+    namespace JSX {
+        interface HTMLAttributes<T> extends AttributifyAttributes {}
+    }
+}
+```
+
+Reference:
+- https://unocss.dev/presets/attributify#typescript-support-jsx-tsx
