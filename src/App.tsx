@@ -33,6 +33,8 @@ const App: Component = () => {
             count is: {count()}
           </button>
         </p>
+        <label><input type="checkbox" name="default" checked></input> Browser default</label>
+        <label><input type="checkbox" class="accent-pink-500" checked></input> Customized</label>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
