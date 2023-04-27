@@ -3,7 +3,6 @@ import { createSignal } from "solid-js";
 
 const App: Component = () => {
   const [count, setCount] = createSignal(0);
-  // @ts-ignore
   return (
     <div class="text-center">
       <header class="bg-#282c34 min-h-100vh flex flex-col items-center justify-center color-white">
@@ -33,8 +32,13 @@ const App: Component = () => {
             count is: {count()}
           </button>
         </p>
-        <label><input type="checkbox" name="default" checked></input> Browser default</label>
-        <label><input type="checkbox" class="accent-pink-500" checked></input> Customized</label>
+        <label>
+          <input type="checkbox" name="default" checked /> Browser default
+        </label>
+        <label>
+          <input type="checkbox" class="accent-pink-500" checked />
+          Customized
+        </label>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
