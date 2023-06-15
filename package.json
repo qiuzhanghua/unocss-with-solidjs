@@ -11,10 +11,10 @@
     "format": "prettier-eslint \"src/**/*.ts\" \"src/**/*.tsx\" --write"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.31",
+    "@iconify-json/logos": "^1.1.33",
     "@mertasan/tailwindcss-variables": "^2.6.1",
-    "@types/node": "^20.2.5",
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@types/node": "^20.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
     "@unocss/core": "^0.53.1",
     "@unocss/preset-attributify": "^0.53.1",
     "@unocss/preset-icons": "^0.53.1",
